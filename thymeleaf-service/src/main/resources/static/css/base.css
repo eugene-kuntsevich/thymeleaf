@@ -1,0 +1,16 @@
+@import "nav.css";
+
+body {
+    margin: 10px auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: #f3f8fc;
+    width: 1080px;
+    height: 1000px;
+    text-align: center;
+}

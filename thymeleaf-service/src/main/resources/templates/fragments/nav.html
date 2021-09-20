@@ -1,0 +1,16 @@
+<nav th:fragment="navbar(activeTab)" xmlns:th="http://www.w3.org/1999/xhtml">
+  <ul>
+    <li>
+      <a id='Main' th:class="${activeTab == 'main'}? 'active' : ''"
+         href="/main">Main</a>
+    </li>
+    <li>
+      <a id='Playlists' th:class="${activeTab == 'playlists'}? 'active' : ''"
+         href="/playlists">Playlists</a>
+    </li>
+    <li>
+      <a id='About' th:class="${activeTab == 'about'}? 'active' : ''"
+         href="/about">About</a>
+    </li>
+  </ul>
+</nav>

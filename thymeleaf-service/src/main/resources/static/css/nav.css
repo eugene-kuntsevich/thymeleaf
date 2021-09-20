@@ -1,0 +1,33 @@
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: blue;
+    text-decoration: underline blue;
+    padding: 2vw;
+}
+
+nav a:hover {
+    color: #4848fd;
+    text-decoration: underline #4848fd;
+}
+
+nav .active {
+    color: grey;
+    text-decoration: underline grey;
+}
+
